@@ -1,7 +1,5 @@
 # LLM-Based Strategic Mission Planning and Autonomous Flight Simulation with A* Algorithm
 
-# LLM-Based Strategic Mission Planning and Autonomous Flight Simulation
-
 ## Project Overview
 I developed an autonomous flight simulation pipeline that utilizes a Large Language Model (LLM) as a strategic decision-maker. By processing mission briefings written in natural language, the system determines optimal tactical parameters. These parameters then dynamically guide an A* path planning algorithm and a JSBSim-based flight dynamics engine, effectively bridging high-level human intent with low-level autonomous execution.
 
