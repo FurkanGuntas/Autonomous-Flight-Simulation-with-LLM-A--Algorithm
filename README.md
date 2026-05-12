@@ -16,12 +16,13 @@ The project follows a modular pipeline where strategic context is translated int
 ![System State Flow Diagram](Images/State_flow_diagram.jpg)
 
 ### 1. Strategic Decision Making
-I utilized the Gemma3:4b LLM via the Ollama framework to act as the "strategic brain" of the system. The model processes natural language mission briefs to determine the necessary flight profile. It outputs specific parameters such as safety distances and maneuverability factors based on the perceived urgency or danger of the mission.
+I utilized the Gemma3:4b LLM via the Ollama framework to act as the strategic brain of the system. The model processes natural language mission briefs to determine the necessary flight profile. It outputs specific parameters such as safety distances and maneuverability factors based on the perceived urgency or danger of the mission.
 
 ![LLM Strategic Decision Example](Images/example_2.jpg)
+![Ollama Mission Parameters Output](Images/image_d5320d.png)
 
 ### 2. Path Planning with A* Algorithm
-Once the strategic parameters are set, I implemented an A* algorithm to calculate the safest and most efficient route. This planner operates on geodesic coordinates and incorporates turn penalties to ensure the generated path remains within the aerodynamic limits of the aircraft. 
+Once the strategic parameters are set, I implemented an A* algorithm to calculate the safest and most efficient route. This planner operates on geodesic coordinates and incorporates turn penalties to ensure the generated path remains within the aerodynamic limits of the aircraft.
 
 ![A* Algorithm Grid Logic](Images/a_star_logic.jpg)
 ![Path Planner Map View](Images/a_star_changing_path.jpg)
