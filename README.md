@@ -13,7 +13,7 @@ I developed an autonomous flight simulation system that integrates a Large Langu
 ## System Architecture and Logic
 The project follows a modular pipeline where strategic context is translated into physical flight maneuvers. The overall state flow of the system dictates how the mission briefing is processed step-by-step into simulated flight.
 
-![System State Flow Diagram](Images/State_flow_diagram.jpg)
+![System State Flow Diagram](Images/state_flow_diagram.jpg)
 
 ### 1. Strategic Decision Making
 I utilized the Gemma3:4b LLM via the Ollama framework to act as the strategic brain of the system. The model processes natural language mission briefs to determine the necessary flight profile. It outputs specific parameters such as safety distances and maneuverability factors based on the perceived urgency or danger of the mission.
