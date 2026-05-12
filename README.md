@@ -58,9 +58,10 @@ The AI evaluates the mission brief and generates these numerical constraints to 
 The A* algorithm remains idle until a "Dangerous Zone" is detected on the direct path. Once triggered, it calculates the most efficient route by minimizing the total cost (Distance + Turn Penalties + Hazard Proximity).
 
 * **A* Grid Logic:** Illustrates the fundamental heuristic-based node evaluation and search area.
-* **Dynamic Re-Routing:** Demonstrates how the algorithm calculates an escape path when encountering a "dead end" or a high-risk obstruction, ensuring the safety distance is maintained.
 
 ![Fundamental A* Logic](images/a_star_logic.png)
+
+* **Dynamic Re-Routing:** Demonstrates how the algorithm calculates an escape path when encountering a "dead end" or a high-risk obstruction, ensuring the safety distance is maintained.
 ![Dynamic Path Correction and Re-routing](images/a_star_changing_path.png)
 
 ### 3. Flight Execution (JSBSim Dynamics)
