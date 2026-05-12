@@ -53,7 +53,6 @@ I implemented the Gemma3:4b LLM as the cognitive layer. Based on the input promp
 The AI evaluates the mission brief and generates these numerical constraints to match the mission's intent.
 
 ![LLM Strategic Reasoning](images/example_2.png)
-![Ollama Mission Parameters Output](images/image_d5320d.png)
 
 ### 2. Path Planning & Re-Routing (A*)
 The A* algorithm remains idle until a "Dangerous Zone" is detected on the direct path. Once triggered, it calculates the most efficient route by minimizing the total cost (Distance + Turn Penalties + Hazard Proximity).
