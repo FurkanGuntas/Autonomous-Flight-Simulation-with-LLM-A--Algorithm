@@ -41,7 +41,7 @@ flight_parameters = {
 
 The project follows a hierarchical architecture where the mission's strategic context is translated step-by-step into physical flight maneuvers.
 
-![System State Flow Diagram](images/State_flow_diagram.png)
+![System State Flow Diagram](images/state_flow_diagram.png)
 
 ### 1. Strategic Decision Making & Cost Definition
 I implemented the Gemma3:4b LLM as the cognitive layer. Based on the input prompt (e.g., "Safe" vs. "Urgent"), the AI dynamically selects three core parameters within specific ranges to define the trajectory's "cost" logic:
