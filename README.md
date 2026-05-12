@@ -4,9 +4,9 @@
 I developed an autonomous flight simulation pipeline that utilizes a Large Language Model (LLM) as a strategic decision-maker. By processing mission briefings written in natural language, the system determines optimal tactical parameters. These parameters then dynamically guide an A* path planning algorithm and a JSBSim-based flight dynamics engine, effectively bridging high-level human intent with low-level autonomous execution.
 
 ## Technology Stack
-* **Core Language:** Python 3.8+
+
 * **Strategic AI:** Ollama Framework, Google Gemma3:4b
-* **Flight Dynamics Engine:** JSBSim (Professional-grade FDM)
+* **Flight Dynamics Engine:** JSBSim (Flight Dynamics Model)
 * **Navigation:** A* Algorithm (Geodesic)
 * **Data Visualization:** Matplotlib, NumPy
 
